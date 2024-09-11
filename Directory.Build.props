@@ -3,10 +3,8 @@
   <PropertyGroup>
     <Authors>Aleksander Heintz</Authors>
     <Product>YoloDev Expecto TestSdk</Product>
-    <RepositoryUrl>https://github.com/YoloDev/YoloDev.Expecto.TestSdk</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/YoloDev/YoloDev.Expecto.TestSdk</PackageProjectUrl>
-    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <RepositoryRoot>$(MSBuildThisFileDirectory)</RepositoryRoot>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <NoWarn>$(NoWarn);NU5125;NU5128;SA0001</NoWarn>

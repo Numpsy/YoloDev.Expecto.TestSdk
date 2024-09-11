@@ -1,11 +1,13 @@
-<Project Sdk="YoloDev.Sdk">
+﻿<Project Sdk="YoloDev.Sdk">
 
   <PropertyGroup>
     <AssemblyName>expecto.visualstudio.dotnetcore.testadapter</AssemblyName>
     <!-- puts build outputs in build folder in nupkg -->
     <BuildOutputTargetFolder>build</BuildOutputTargetFolder>
     <OutputType>Exe</OutputType>
-    <PackageId>$(MSBuildProjectName)</PackageId>
+    <PackageId>Beardmouse.Expecto.Testing</PackageId>
+    <Version>0.1.0</Version>
+    <PackageReleaseNotes>A custom build of YoloDev.Expecto.TestSdk for experimental testing purposes</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="build/net6.0/YoloDev.Expecto.TestSdk.props" Pack="true" PackagePath="build\net6.0\" />
+    <None Include="build\net6.0\Beardmouse.Expecto.Testing.props" Pack="true" PackagePath="build\net6.0\" />
     <None Include="build/net6.0/_._" Pack="true" PackagePath="lib\net6.0\" Visible="false" />
   </ItemGroup>
 
