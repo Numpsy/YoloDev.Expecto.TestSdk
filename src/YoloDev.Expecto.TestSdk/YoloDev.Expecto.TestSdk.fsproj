@@ -6,7 +6,7 @@
     <BuildOutputTargetFolder>build</BuildOutputTargetFolder>
     <OutputType>Exe</OutputType>
     <PackageId>Beardmouse.Expecto.Testing</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
     <PackageReleaseNotes>A custom build of YoloDev.Expecto.TestSdk for experimental testing purposes</PackageReleaseNotes>
   </PropertyGroup>
 
