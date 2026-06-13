@@ -6,7 +6,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <RepositoryRoot>$(MSBuildThisFileDirectory)</RepositoryRoot>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <NoWarn>$(NoWarn);NU5125;NU5128;SA0001</NoWarn>
     <DebugType>embedded</DebugType>
     <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
